@@ -41,6 +41,11 @@ module.exports = function(grunt) {
     ['clean', 'copy:dependencies', 'karma:watch']
   );
 
+  grunt.registerTask('test:func',
+    'Build and run the functional tests.',
+    ['clean', 'webpack:build', 'jasmine_nodejs']
+  );
+
   grunt.registerTask('sign',
     'Build and sign a beta webextension.',
     ['build:beta', 'shell:webextSign']
@@ -56,4 +61,6 @@ module.exports = function(grunt) {
   grunt.config('shell', require('./grunt/shell'));
   grunt.config('eslint', require('./grunt/eslint'));
   grunt.config('karma', require('./grunt/karma'));
+  grunt.config('jasmine_nodejs', require('./grunt/jasmine_nodejs'));
+
 };

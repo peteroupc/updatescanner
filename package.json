@@ -16,11 +16,13 @@
     "eslint": "4.19.1",
     "eslint-config-google": "0.9.1",
     "eslint-plugin-jsdoc": "3.7.1",
+    "geckodriver": "1.10.0",
     "grunt": "1.0.2",
     "grunt-contrib-clean": "1.1.0",
     "grunt-contrib-copy": "1.0.0",
     "grunt-env": "0.4.4",
     "grunt-eslint": "20.2.0",
+    "grunt-jasmine-nodejs": "1.6.0",
     "grunt-karma": "2.0.0",
     "grunt-shell": "2.1.0",
     "jasmine-core": "3.1.0",
@@ -32,6 +34,7 @@
     "karma-jasmine-html-reporter": "1.1.0",
     "karma-notification-reporter": "0.1.2",
     "load-grunt-tasks": "4.0.0",
+    "selenium-webdriver": "3.6.0",
     "web-ext": "2.7.0"
   },
   "scripts": {
