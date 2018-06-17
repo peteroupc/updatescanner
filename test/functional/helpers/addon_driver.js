@@ -4,7 +4,7 @@ const firefox = require('selenium-webdriver/firefox');
 const settings = require('../../../grunt/settings');
 const manifest = require('../../../src/manifest');
 
-module.exports.ADDON_FILE = `dist/update_scanner-${manifest.version}.zip`;
+module.exports.ADDON_FILE = `dist/update_scanner-${manifest.version}-an+fx.xpi`;
 
 module.exports.buildAddonDriver = () => {
   const options = new firefox.Options();

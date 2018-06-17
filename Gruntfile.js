@@ -42,8 +42,8 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask('test:func',
-    'Build and run the functional tests.',
-    ['clean', 'webpack:build', 'jasmine_nodejs']
+    'Run the functional tests on a signed XPI.',
+    ['jasmine_nodejs']
   );
 
   grunt.registerTask('sign',
