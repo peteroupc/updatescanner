@@ -34,7 +34,7 @@
     "karma-jasmine-html-reporter": "1.1.0",
     "karma-notification-reporter": "0.1.2",
     "load-grunt-tasks": "4.0.0",
-    "selenium-webdriver": "3.6.0",
+    "selenium-webdriver": "4.0.0-alpha.1",
     "web-ext": "2.7.0"
   },
   "scripts": {
